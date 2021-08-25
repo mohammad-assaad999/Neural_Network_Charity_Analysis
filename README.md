@@ -24,10 +24,10 @@ As we see in the following code script:
 
  - Our target model performance was 75%, but our model performance was a little bit less than that. 
  - However, we haven't stopped from optimizing the model to reach the target. I've:
-  - Dropped the USE_CASE column from the data
-  - Increased the neurons in each hidden layer
-  - Added a third hidden layer
-  - Changed the activation function of the output layer from Sigmoid to ReLu
+   - Dropped the USE_CASE column from the data
+   - Increased the neurons in each hidden layer
+   - Added a third hidden layer
+   - Changed the activation function of the output layer from Sigmoid to ReLu
 
 ## Summary
 In general, although the results are not as expected, this model has absolutely helped us to predict where to make investments. Other models may show better results like the Random Forest or Support vector machine models since the amount of code required to build and train these models is notably less than the comparable deep learning model. As a result, many data scientists will prefer to use them by default, then turn to deep learning models, as needed. 
